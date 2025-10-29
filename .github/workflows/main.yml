@@ -4,4 +4,4 @@ jobs:
   pdf:
     runs-on: ubuntu-22.04
     steps:
-      -run: sudo apt-get install texlive-xetex
+      - run: sudo apt-get install texlive-xetex
