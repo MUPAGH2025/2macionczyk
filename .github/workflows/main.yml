@@ -1,0 +1,7 @@
+name: sprawozdanie
+on: push
+jobs:
+  pdf:
+    runs-on: ubuntu-22.04
+    steps:
+      -sudo apt-get install texlive-xetex
