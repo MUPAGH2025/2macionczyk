@@ -10,4 +10,4 @@ jobs:
       - run: python -m nbconvert --to pdf --execute n1.ipynb
       - uses: actions/upload-artifact@v4
         with:
-          path: anim.gif.pdf
+          path: anim.gif
