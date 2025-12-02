@@ -7,7 +7,7 @@ jobs:
       - run: sudo apt-get install texlive-xetex inkscape pandoc
       - run: pip install scipy numpy pint open_atmos_jupyter_utils matplotlib nbconvert ipykernel pympdata
       - uses: actions/checkout@v4
-      - run: python -m nbconvert --to pdf --execute projekt.ipynb checkout --output projekt.pdf #--to script mozna dac jezeli bez pdf
+      - run: python -m nbconvert --to pdf --execute projekt.ipynb  #--to script mozna dac jezeli bez pdf
       - uses: actions/upload-artifact@v4
         with:
           path: projekt.pdf # lub labx.pdf
